@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#1a1a2e;color:#e4e4e7;padding:20px;width:320px}
+h2{color:#f59e0b;margin-bottom:10px}
+.btn{display:block;width:100%;padding:10px;margin:8px 0;border:none;border-radius:6px;background:#f59e0b;color:#000;font-weight:600;cursor:pointer}
+.btn:hover{background:#f97316}
+select{width:100%;padding:8px;border-radius:6px;border:1px solid #333;background:#18181b;color:#e4e4e7;margin:8px 0}
+label{font-size:0.85rem;color:#a1a1aa}
+.status{margin-top:10px;padding:8px;border-radius:6px;background:#18181b;font-size:0.8rem}
+</style>
+</head>
+<body>
+<h2>FormFill AI</h2>
+<label>Profile:</label>
+<select id="profileSelect"></select>
+<button class="btn" id="fillBtn">Auto-Fill Form</button>
+<button class="btn" id="saveBtn">Save Current Data</button>
+<button class="btn" id="optionsBtn">Options</button>
+<div class="status" id="status"></div>
+<script src="popup.js"></script>
+</body>
+</html>

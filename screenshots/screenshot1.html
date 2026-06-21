@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#0a0a0f;color:#e4e4e7;margin:0;padding:20px;width:340px}
+.header{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.logo{width:32px;height:32px;background:linear-gradient(135deg,#f59e0b,#f97316);border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#000}
+.title{font-size:1.1rem;font-weight:700;color:#f59e0b}
+label{display:block;margin-top:10px;font-size:0.75rem;color:#a1a1aa}
+input,select{width:100%;padding:8px;margin-top:4px;border-radius:6px;border:1px solid #333;background:#18181b;color:#e4e4e7;box-sizing:border-box;font-size:0.85rem}
+.btn{display:block;width:100%;padding:10px;margin:10px 0 4px;border:none;border-radius:6px;background:#f59e0b;color:#000;font-weight:600;cursor:pointer;text-align:center;font-size:0.85rem}
+.status{margin-top:10px;padding:8px;border-radius:6px;background:#18181b;font-size:0.75rem;text-align:center;border:1px solid #22c55e}
+.status-text{color:#22c55e}
+</style>
+</head>
+<body>
+<div class="header">
+<div class="logo">F</div>
+<div class="title">FormFill AI</div>
+</div>
+<label>Profile:</label>
+<select><option>Job Seeker (Software Engineer)</option></select>
+<label style="margin-top:14px">Form detected: Workday — Software Engineer Application</label>
+<div style="background:#18181b;border-radius:6px;padding:10px;margin:10px 0;font-size:0.75rem;border:1px solid #333">
+<div style="display:flex;justify-content:space-between;margin-bottom:4px"><span>First Name</span><span style="color:#22c55e">✓ Filled</span></div>
+<div style="display:flex;justify-content:space-between;margin-bottom:4px"><span>Last Name</span><span style="color:#22c55e">✓ Filled</span></div>
+<div style="display:flex;justify-content:space-between;margin-bottom:4px"><span>Email</span><span style="color:#22c55e">✓ Filled</span></div>
+<div style="display:flex;justify-content:space-between;margin-bottom:4px"><span>Phone</span><span style="color:#22c55e">✓ Filled</span></div>
+<div style="display:flex;justify-content:space-between"><span>Company</span><span style="color:#f59e0b">⚠ AI suggested</span></div>
+</div>
+<button class="btn">Auto-Fill All Fields</button>
+<div class="status"><span class="status-text">✓ 12/15 fields filled automatically</span></div>
+</body>
+</html>
